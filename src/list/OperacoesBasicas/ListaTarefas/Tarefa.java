@@ -12,11 +12,12 @@ public class Tarefa {
         return descricao;
     }
 
-  @Override
-  public String toString() {
-      // TODO Auto-generated method stub
-      return "Tarefa: " + descricao;
-  }
+    @Override
+    public String toString() {
+        return "Tarefa [descricao=" + descricao + "]";
+    }
+
+
 
 
 }
